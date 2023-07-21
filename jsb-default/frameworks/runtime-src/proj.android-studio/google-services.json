@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "687514874494",
+    "project_id": "sort-badminton-ball-puzzle",
+    "storage_bucket": "sort-badminton-ball-puzzle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687514874494:android:95e27c851b9f7081c39e2f",
+        "android_client_info": {
+          "package_name": "com.block.woodyblock.blockTube"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687514874494-n8tjf3ni1mgkj7h71e3oe59jmdad8m5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsos5qOK1eQDoRhlCTnL1Cpc6vujdZ9T8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687514874494-n8tjf3ni1mgkj7h71e3oe59jmdad8m5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
