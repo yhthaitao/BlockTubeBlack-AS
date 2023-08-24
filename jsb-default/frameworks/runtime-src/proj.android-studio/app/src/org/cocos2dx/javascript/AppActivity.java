@@ -115,7 +115,6 @@ import com.google.android.play.core.review.ReviewInfo;
 import com.google.android.play.core.review.ReviewManager;
 import com.google.android.play.core.review.ReviewManagerFactory;
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.facebook.appevents.AppEventsLogger;
 //applovin
 //push
 import java.util.HashMap;
@@ -1121,8 +1120,6 @@ public class AppActivity extends Cocos2dxActivity implements MaxAdListener, MaxR
 
     public static void facebookLogEvent(String eventName) {
         javaLog(" java method: facebookLogEvent() Adjust: " + eventName);
-        AppEventsLogger logger = AppEventsLogger.newLogger(app);
-        logger.logEvent(app.fbLogPrefix + eventName);
 
         if (app.jsonDot != null && app.jsonDot.has(eventName)){
             try{
